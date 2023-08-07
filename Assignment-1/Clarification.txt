@@ -1,0 +1,18 @@
+2201-COL106 DATA STRUCTURES AND ALGORITHMS
+Please note a minor clarification for Assignment 1.
+The length of a drone program is the number of characters in the program.
+For example, the length of the program '9999(+X)' is 8 (and not 9999).
+
+Please ensure that your algorithm for Assignment 1 runs in linear time.
+Otherwise, it is possible that the auto-grader succeeds on the visible test cases but times out on the hidden test cases.
+
+You are recommended not to modify the Stack class.
+It should have the same methods; how you implement them is up to you, as long as the implementation takes O(1) time.
+ 
+The idea is to have a standard Stack class that you could reuse in several places, and not a problem-specific version of the class.
+Hope this helps.
+
+2201-COL106 DATA STRUCTURES AND ALGORITHMS, If a test is shown to have failed in the "middle" part (autograder results), then it has failed, even though the right side (autograder score) says the test passed.
+Thanks.
+
+It is some python 3 specific thing where dividing 2 numbers gives a floating point result and there is a limit to a float whereas using // directly gives an integer result

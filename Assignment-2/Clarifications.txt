@@ -1,0 +1,5 @@
+2201-COL106 DATA STRUCTURES AND ALGORITHMS
+Assume not more than 2 collide at the same time and same place.
+However, it is possible that more than two collide at the same time in pairs, with each pair colliding at a distinct location.
+In this case, ties need to be broken as specified in the problem statement.
+The test runs contain one such example.
